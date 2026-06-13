@@ -215,7 +215,7 @@ body{
 	height: 36px;
 	border-radius: 50%;
 	background-color: var(--white-color);
-	background-image: url('../images/arrow-green.svg');
+	background-image: url('../images/icons/arrow-green.svg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 24px auto;
@@ -235,7 +235,7 @@ body{
 
 .btn-default.btn-highlighted:before{
 	background-color: var(--accent-color);
-	background-image: url('../images/arrow-white.svg');
+	background-image: url('../images/icons/arrow-white.svg');
 }
 
 .btn-default.btn-highlighted:hover::before{
@@ -966,7 +966,7 @@ header.main-header .header-sticky.active{
 	top: 0;
 	bottom: 0;
 	right: 0;
-	background: var(--white-color) url('../images/arrow-green.svg') no-repeat;
+	background: var(--white-color) url('../images/icons/arrow-green.svg') no-repeat;
 	background-position: center center;
 	background-size: 16px auto;
 	border-radius: 50%;
@@ -976,7 +976,7 @@ header.main-header .header-sticky.active{
 }
 
 .learn-more-btn:hover::after{
-	background: var(--accent-color) url('../images/arrow-green.svg') no-repeat;
+	background: var(--accent-color) url('../images/icons/arrow-green.svg') no-repeat;
 	background-position: center center;
 	background-size: 16px auto;
 	right: -2px;
@@ -2098,7 +2098,7 @@ header.main-header .header-sticky.active{
     bottom: 0;
     left: 0;
     right: 0;
-    background: url("../images/arrow-white.svg") no-repeat center center;
+    background: url("../images/icons/arrow-white.svg") no-repeat center center;
     background-size: 24px auto;
     display: flex;
     align-items: center;
@@ -2384,7 +2384,7 @@ header.main-header .header-sticky.active{
 
 .pricing-footer .btn-default::before{
 	background-color: var(--primary-color);
-	background-image: url('../images/arrow-white.svg');
+	background-image: url('../images/icons/arrow-white.svg');
 }
 
 .pricing-item.highlighted-box{
@@ -2525,7 +2525,7 @@ header.main-header .header-sticky.active{
 
 .article-btn .btn-default::before{
     background-color: var(--primary-color);
-    background-image: url(../images/arrow-white.svg);
+    background-image: url(../images/icons/arrow-white.svg);
 }
 
 .article-post{
@@ -2766,7 +2766,7 @@ header.main-header .header-sticky.active{
 
 .page-header{
 	position: relative;
-	background: url('../images/page-header-bg.jpg') no-repeat;
+	background: url('../images/background/page-header-bg.webp') no-repeat;
 	background-position: center center;
 	background-size: cover;
 	padding: 225px 0 125px;
@@ -2885,7 +2885,7 @@ header.main-header .header-sticky.active{
 	display: flex;
 	flex-wrap: wrap;
 	gap: 80px;
-	padding: 65px 115px;
+	padding: 65px 100px;
 }
 
 .counter-item{
@@ -3010,7 +3010,7 @@ header.main-header .header-sticky.active{
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background: linear-gradient(180deg, rgba(0, 0, 0, 0) 52.88%, #000000 100%);
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
 	width: 100%;
 	height: 100%;
 	z-index: 1;
@@ -3046,11 +3046,14 @@ header.main-header .header-sticky.active{
 	margin-bottom: 10px;
 }
 
-.team-body-title h3{
+.team-body-title h3, .team-body-title h3 a {
 	font-size: 20px;
 	font-weight: 600;
 	text-transform: capitalize;
 	color: var(--white-color);
+}
+.team-body-title h3:hover a {
+	color: var(--accent-color);
 }
 
 .team-body-content{
@@ -3208,7 +3211,7 @@ header.main-header .header-sticky.active{
     top: 50%;
     right: 0px;
 	transform: translate(-15px, -50%);
-	background-image: url('../images/arrow-green.svg');
+	background-image: url('../images/icons/arrow-green.svg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 30px auto;
@@ -3332,7 +3335,7 @@ header.main-header .header-sticky.active{
     bottom: 0;
     left: 0;
     right: 0;
-    background: url("../images/arrow-white.svg") no-repeat center center;
+    background: url("../images/icons/arrow-white.svg") no-repeat center center;
     background-size: 24px auto;
     display: flex;
     align-items: center;
@@ -3987,7 +3990,7 @@ header.main-header .header-sticky.active{
     top: 50%;
     right: 0px;
 	transform: translate(-15px, -50%);
-	background-image: url('../images/arrow-green.svg');
+	background-image: url('../images/icons/arrow-green.svg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 30px auto;
@@ -4171,7 +4174,7 @@ header.main-header .header-sticky.active{
 
 .error-page-content-body .btn-default::before{
 	background-color: var(--primary-color);
-	background-image: url('../images/arrow-white.svg');
+	background-image: url('../images/icons/arrow-white.svg');
 }
 
 /************************************/
