@@ -4020,7 +4020,7 @@ header.main-header .header-sticky.active{
 }
 
 .contact-us-form{
-	background: var(--primary-color) url('../images/contact-form-bg.svg');
+	background: var(--primary-color) url('../images/background/contact-form-bg.svg');
 	background-repeat: no-repeat;
 	background-position: bottom center;
 	background-size: contain;
@@ -4115,9 +4115,13 @@ header.main-header .header-sticky.active{
 	margin-bottom: 5px;
 }
 
-.contact-info-content h3{
+.contact-info-content h3, .contact-info-content h3 a{
 	font-size: 20px;
 	font-weight: 600;
+	color: var(--primary-color);
+}
+.contact-info-content h3:hover a{
+	color: var(--accent-color);
 }
 
 .google-map{
@@ -5508,7 +5512,7 @@ header.main-header .header-sticky.active{
         padding: 20px;
     }
 
-	.contact-info-content h3{
+	.contact-info-content h3, .contact-info-content h3 a{
 		font-size: 18px;
 	}
 
