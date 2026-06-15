@@ -360,6 +360,7 @@ body {
   color: var(--white-color);
   background: -webkit-linear-gradient(270deg, rgba(11, 61, 44, 0.1) 68.79%, rgba(11, 61, 44, 0.02) 91%);
   -webkit-background-clip: text;
+ background-clip: text;
   -webkit-text-stroke: 2px transparent;
 }
 
@@ -367,12 +368,14 @@ body {
   color: var(--secondary-color);
   background: -webkit-linear-gradient(270deg, rgba(11, 61, 44, 0.08) 68.79%, rgba(11, 61, 44, 0.016) 91%);
   -webkit-background-clip: text;
+  background-clip: text;
 }
 
 .section-bg-title.dark-bg-2 span {
   color: var(--primary-color);
   background: -webkit-linear-gradient(270deg, rgba(255, 255, 255, 0.08) 68.79%, rgba(11, 61, 44, 0.016) 91%);
   -webkit-background-clip: text;
+  background-clip: text;
 }
 
 .section-title h3 {
